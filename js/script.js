@@ -11,3 +11,6 @@ Button.prototype.create = function() {
   });
   document.body.appendChild(this.element);
 }
+
+var btnA = new Button('Matt');
+btnA.create();
